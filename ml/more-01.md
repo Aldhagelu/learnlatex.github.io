@@ -1,28 +1,19 @@
 ---
 layout: "lesson"
-lang: "en"
+lang: "ml"
 title: "More on: What is LaTeX and how does it work?"
 description: "This lesson gives more context on the history of LaTeX and other formats available."
 toc-anchor-text: "More on: What is LaTeX and how does it work?"
 ---
+ലാറ്റെൿ എന്ന വാക്കില്‍ യഥാര്‍ഥത്തില്‍ രണ്ട് ഘടകങളുണ്ട്,'ലാ' ഉം 'ടെൿ' ഉം. താഴെ പറയുന്നതില്‍ നമുക്കു ഇതു എങ്ങനെ വന്നു എന്ന് സംക്ഷിപ്തമായി വിവരിക്കാം.
+ടെൿ യഥാര്‍ഥത്തില്‍ കണ്ടുപിടിച്ചത് സ്റ്റാന്‍ഫഡ് സര്‍വ്വകലാശാല പ്രൊഫസ്സര്‍ ഡൊണാള്‍ഡ് ക്നൂത്ത് ആണ്. "ദി ആര്‍ട്ട് ഓഫ് കംപ്യൂട്ടര്‍ പ്രോഗ്രാമിങ്" (റ്റിഎഒസിപി എന്ന് അറിയപ്പെടുന്നു)
+എന്ന പുസ്തക പരമ്പരയിലൂടെ വളരെ പ്രസിദ്ധനാണ് ക്നൂത്ത്. 1973-ല്‍ ഒരു പുതിയ പുസ്തക പതിപ്പ് ഉണ്ടാക്കേണ്ടതായിരുന്നു; ഈ സമയത്താണ് അക്ഷര വിന്യാസ വ്യവസായം
+പഴയ അക്ഷര വിന്യാസ സമ്പ്രദായത്തില്‍ നിന്ന് ചിത്രം അടിസ്താനപ്പെടുത്തിയുള്ള അക്ഷര വിന്യാസത്തിലേക്ക് (phototypesetting) മാറിയത്. അങ്ങനെ അച്ചടിച്ച
+പുസ്തകത്തിന്റെ വിന്യാസ നിലവാരം ക്നുത്തിനു് ഇഷ്ടമായില്ല, അതിനാൽ അക്ഷരവിന്യാസത്തിനു് ഒരു പുതിയ കംപ്യൂട്ടർ പ്രോഗ്രാം എഴുതാൻ അദ്ദേഹം തീരുമാനിച്ചു.
 
-The word 'LaTeX' actually consists of two components, 'La' and 'TeX'. In the
-following we will briefly describe where they come from.
+1977 മെയ്-ല്‍ ടെക്കിന്റെ വികസനം ആരംഭിച്ചു.
 
-TeX was originally invented by Stanford professor Donald Knuth. Knuth is
-well known for a series of books called *The Art of Computer Programming*
-(known as TAOCP). In
-1973 a new edition of the books was to be made; this was the time when the
-typesetting industry switched from traditional typesetting with lead to
-photo-based typesetting. Donald Knuth did not like the quality of the print and
-therefore decided to implement his own typesetting system.
+വെറും ടെൿ ഉപയോഗിക്കുക ഏറെ സങ്കീര്‍ണമായിരുന്നു, ഡൊണാള്‍ഡ് ക്നൂത്ത് പോലും അനേകം തരത്തിലുള്ള മാക്രോസ് ഉപയോഗിച്ചാണ് പുസ്തകങ്ങൾ നിര്‍മ്മിച്ചത്.
+ഇപ്പോൾ മൈക്രോസോഫ്റ്റില്‍ ജോലി ചെയ്യുന്ന ലെസ്‌ലി ലാംപര്‍ട്ട്, ടെൿ ഉപയോഗിക്കുന്നത് സുഗമമാക്കുവാന്‍ ഒരു പറ്റം മാക്രോസ് ഉണ്ടാക്കി, ഈ മാക്രോ സഞ്ചയമാണ് "ലാറ്റെൿ".
 
-In May 1977 the development of TeX started.
-
-The original TeX was rather complicated to use, even Donald Knuth used various
-macros to edit his books. Leslie Lamport, who works for Microsoft nowadays, also
-developed a set of macros that simplify the use of TeX and called this macro
-set “LaTeX”.
-
-Today LaTeX is the most common way to interact with TeX. Another alternative is
-[ConTeXt](https://www.contextgarden.net/).
+ഇന്ന് ടെൿ ഉപയോഗിച്ച് പ്രവര്‍ത്തനം നടത്തുവാന്‍ വളരെ പ്രചാരമുള്ള ഉപായമാണ് ലാറ്റെൿ. മറ്റൊരു മാര്‍ഗമാണ് [കോണ്‍ടെക്സ്റ്റ്](https://www.contextgarden.net/).
